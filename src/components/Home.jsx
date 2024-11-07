@@ -9,13 +9,13 @@ import Navbar from './Navbar';
 const Home = () => {
   return (
     <div className="bg-black text-white min-h-screen">
-        <Navbar/>
+        
       {/* Hero Section */}
       <section className="py-20 text-center">
         <h1 className="text-4xl font-bold mb-4">Sciastra</h1>
         <h2 className="text-3xl mb-2">Unlock Your Potential with Our Online Courses</h2>
         <p className="text-lg mb-8">Learn from industry experts and transform your career from the comfort of your home.</p>
-        <a href="/courses" className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition">
+        <a href="#course" className="bg-blue-500 text-white py-2 px-6 rounded hover:bg-blue-600 transition">
           Browse Courses
         </a>
       </section>
